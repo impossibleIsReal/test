@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="module" defer src="./js/main.js"></script>
+
+    <title>Todoist</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./img/logo.png" alt="Приложение Todoist">
+        </a>
+    </header>
+    <main class="main">
+        <aside class="navigation">
+            <nav class="nav">
+                <label>Выбрать дату:
+                    <input type="date" class="nav-date">
+                </label>
+
+            </nav>
+        </aside>
+        <section>
+            <table>
+                <caption></caption>
+                <thead>
+                    <tr>
+                        <th>
+                            <span class="task">Задача</span>
+                        </th>
+                        <th>
+                            <span class="deadline">Срок выполнения</span>
+                        </th>
+                        <th>
+                            <span class="priority">Приоритет</span>
+                        </th>
+                        <th><span class="control"></span></th>
+                    </tr>
+                </thead>
+                <tbody class="app-container">
+
+                </tbody>
+            </table>
+            <form action="#">
+                <input type="text" placeholder="Input task" class="app-input">
+                <input type="submit" value="Add task" class="app-button">
+            </form>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+</html>

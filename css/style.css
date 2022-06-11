@@ -1,0 +1,111 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    margin-bottom: 2px;
+    padding: 8px 12px;
+    background-color: #FC453A;
+}
+
+.main {
+    display: flex;
+}
+
+.navigation {
+    min-height: 500px;
+    width: 150px;
+    margin-right: 2px;
+    padding: 8px;
+    background-color: #FC7D3A;
+    border-radius: 4px;
+}
+
+.nav-date {
+    margin-block: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid #CACACA;
+}
+
+th {
+    text-align: left;
+    border-bottom: 1px solid #CACACA;
+}
+
+td {
+    padding-block: 8px 4px;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #CACACA;
+}
+
+.control,
+.priority {
+    display: inline-block;
+    width: 100px;
+
+}
+
+.deadline {
+    display: inline-block;
+    width: 200px;
+}
+
+.task {
+    display: inline-block;
+    width: 1000px;
+}
+
+.app-input {
+    margin-block: 15px;
+    margin-right: 20px;
+    width: 800px;
+    font-size: 18px;
+}
+
+.app-btn {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.btn-done {
+    background-image: url("../img/icon-check.png");
+}
+
+.btn-del {
+    border: none;
+    background-image: url("../img/delete.png");
+}
+
+
+
+
+
